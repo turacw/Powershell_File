@@ -1,5 +1,7 @@
 ### SET FOLDER TO WATCH + FILES TO WATCH + SUBFOLDERS YES/NO
     $filewatcher = New-Object System.IO.FileSystemWatcher
+    $TrackedFolder = "C:\Share" #Which folder do you want to monitor
+    $LogFileName = "$env:HOMEPATH\desktop\Share_FileMonitor.txt"  #If you want to log name change the name of "Share_FileMonitor.txt"
 
     #Mention the folder to monitor
     $filewatcher.Path = "C:\Demo\"
