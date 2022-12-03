@@ -1,2 +1,6 @@
 # Powershell_File
-Powershell File and Folders Script
+
+
+In this repo You can find powershell scriptis related files and folders.
+
+Main branch is empty follow the sub branches.
